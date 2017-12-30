@@ -197,7 +197,7 @@ public class NhanVienModel {
                     huanLuyenVien.getHesoLuong(),huanLuyenVien.getPhuCap(),2);
         }
     }
-    public int delete(int id){
+    public int delete(int id){ //
         return db.xoaNhanVien(id);
     }
     public ArrayList getAll(){
