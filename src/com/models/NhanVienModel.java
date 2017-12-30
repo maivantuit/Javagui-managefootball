@@ -14,7 +14,7 @@ import java.util.Date;
 public class NhanVienModel {
     private int ID, soTranThamGia,soBanThang, soNamKinhNghiem, loaiNhanVien;
     private String tenNhanVien, quocTich, viTriThiDau;
-    private Boolean gioiTinh;
+    private Boolean gioiTinh; // gioitinh
     private Date ngaySinh, ngayVaoLam;
     private double luongThoaThuan, heSoLuong, phuCap;
     
